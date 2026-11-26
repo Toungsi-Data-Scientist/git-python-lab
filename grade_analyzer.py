@@ -8,3 +8,16 @@ if grade >= 50:
      print("Result: pass")
 else:
     print("Fail")
+    
+if grade >= 90:
+    category = "A"
+elif grade >= 80:
+    category = "B"
+elif grade >= 70:
+    category = "C"
+elif grade >= 60:
+    category = "D"
+else: 
+    category = "F"
+    
+print("Category:", category)
